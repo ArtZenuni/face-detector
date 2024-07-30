@@ -35,7 +35,7 @@ video{
 }
 
 @media screen and (max-width:500px){
-  video{
+  video, canvas{
     width: 90%;
   }
 }
