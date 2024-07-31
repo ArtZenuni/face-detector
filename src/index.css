@@ -25,6 +25,8 @@ code {
 
 video, canvas {
   position: absolute;
+  width: 720px;
+  height: 560px;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
@@ -34,7 +36,7 @@ video{
   border-radius: 16px;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:740px){
   video, canvas{
     width: 90%;
   }

@@ -64,14 +64,10 @@ const FaceDetection = () => {
         ref={videoRef}
         autoPlay
         muted
-        width="720"
-        height="560"
         onPlay={handleVideoOnPlay}
       />
       <canvas
         ref={canvasRef}
-        width="720"
-        height="560"
       />
     </div>
   );
